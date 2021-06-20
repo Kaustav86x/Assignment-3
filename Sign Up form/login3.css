@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: azure;
+    padding: 3px 0px;
+    margin: 0px 490px;
+    /* margin-left: 490px;
+    margin-right: 490px; */
+    border-radius: 10px;
+}
+.signup {
+    text-align: center;
+}
+.footer {
+    display: flex;
+    justify-content: center; /*to align items inside div */
+    font-weight: bold;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(50, 33, 148);
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, violet, white);
+}
+hr.hr {
+    margin-left: 500px;
+    margin-right: 500px;
+    border-top: 1px solid rgb(107, 23, 72)
+}
+input {
+    width: 20%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: solid;
+}
+/* input:focus {
+    background-color: rgb(218, 197, 212);
+} */
+input[type=submit] {
+    width: 10%;
+    transition: 0.4s;
+}
+input[type=submit]:hover {
+    color: white;
+    background-color: rgb(187, 66, 141);
+    cursor: pointer;
+}
+.btn {
+    width: 10%;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    color: white;
+    background-color:  rgb(187, 66, 141);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login3.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <script src="login3.js"></script>
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Sign Up</h1>
+            <div class="pic">
+                <p id="demo"></p>
+            </div>
+            <form class="signup" id="signup"><br>
+                <label class="int">First Name</label><br>
+                <label><input type="text" name="fname" id="fname" placeholder="First name" required></label>
+                <br><br><hr class="hr"><br>
+                <label class="int">Last Name</label><br>
+                <label><input type="text" name="lname" id="lname" placeholder="Last Name" required></label>
+                <br><br><hr class="hr"><br>
+                <label class="int">Email</label><br>
+                <label><input type="email" name="mail" id="mail" placeholder="Email" required></label>
+                <br><br><hr class="hr"><br>
+                <label class="int">Create Password</label><br>
+                <label><input type="password" name="pass1" id="pass1" placeholder="Create Password" required></label>
+                <br><br><hr class="hr"><br>
+                <label>Confirm Password</label><br>
+                <label class="int"><input type="password" name="pass2" id="pass2" placeholder="Create Password" required></label>
+                <br><br><hr class="hr"><br>
+                <label><input type="submit" onclick="MyFunc1()" name="sub" id="sub"></label> | <button type="button" class="btn" onclick="MyFunc2()">Cancel</button>
+                <br><br><hr class="hr"><br>
+            </form>
+            <!-- end of the form -->
+            <div class="footer">
+                <p>Already have an account ?</p>
+                <a href="login.html">Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
