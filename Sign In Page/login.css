@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(155, 103, 133);
+    margin-left: 490px;
+    margin-right: 490px;
+    padding: 2px 0px;
+    border-radius: 10px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, violet, white);
+}
+hr.hr {
+    margin-left: 500px;
+    margin-right: 500px;
+    border-top: 1px solid rgb(107, 23, 72)
+}
+.form {
+    color: rgb(39, 39, 189);
+    padding: 80px 0px;
+    margin: 0 -5px;
+    border: black;
+}
+.lgform {
+    text-align: center;
+    width: 100%;
+}
+.pass {
+    text-align: center;
+}
+.sign {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+input{
+    width: 20%;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-style: solid;
+}
+input[type=submit] {
+    width: 10%;
+    transition: 0.4s;
+}
+input[type=submit]:hover {
+    color: white;
+    background-color: rgb(187, 66, 141);
+    cursor: pointer;
+}
+.btn {
+    width: 10%;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover {
+    color: white;
+    background-color: rgb(187, 66, 141);
+    cursor: pointer;
+}
+.acc {
+    color: rgb(16, 53, 156);
+}
+.footer {
+    width: 27%;
+    margin-left: 500px;
+    margin-top: 0;
+    padding: 5px 2px;
+    background-image: linear-gradient(to right, rgb(146, 167, 194), white);
+    border-radius: 10px;
+}

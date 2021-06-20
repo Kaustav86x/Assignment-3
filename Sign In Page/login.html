@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Login</h1>
+            <br><hr class="hr"><br>
+            <form class="lgform" method="GET" action="login.php">
+                <label><input type="text" placeholder="Name" name="name" id="name" required></label><br><br>
+                <hr class="hr">
+                <br>
+                <label><input type="email" placeholder="Email" name="email" id="email" required></label><br><br>
+                <hr class="hr">
+                <br>
+                <label><input type="password" placeholder="Password" name="pass" id="pass" required></label><br>
+                <br><hr class="hr"><br>
+                <label><input type="submit" onclick="MyFunc1()" name="sub" id="sub"></label> | <button type="button" onclick="MyFunc2()" class="btn" name="can" id="can">Cancel</button>
+            </form>
+            <br><hr class="hr"><br>
+            <!-- footer -->
+            <div class="footer">
+                <div class="pass">
+                    <a href="login2.html">Forget password ?</a>
+                </div><br>
+                <form class="sign">
+                    <strong><p class="acc">Don't have an account ?
+                        <!-- <div class="vl"></div> -->
+                    <a href="login3.html"> Sign up </a></p></strong>
+                </form>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
